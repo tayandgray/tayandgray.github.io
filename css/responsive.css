@@ -17,14 +17,30 @@
 	.tile-wrapper{ width: 100%;
 	}
 	#home-slider {
-    background: url(../img/photo_12_mobile.jpg) ;
+    background: url(../img/photo_01_mobile.jpg) ;
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 499px;
+    min-height: 568px;
     max-width: 100%;
   }
-#quote {
-    background: url(../img/photo_2_mobile.jpg) ;
+#quote-divider-1 {
+    background: url(../img/photo_02_mobile.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+
+}
+
+#quote-divider-2 {
+    background: url(../img/photo_03_mobile.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+
+}
+
+#quote-divider-3 {
+    background: url(../img/photo_04_mobile.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
@@ -32,7 +48,7 @@
 }
 
 #registry {
-    background: url(../img/photo_3_mobile.jpg) ;
+    background: url(../img/photo_05_mobile.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 500px;
