@@ -194,7 +194,7 @@ h1, h2, h3, h4, h6{
 }
 
 #registry{
-	background:url(../img/photo_20.jpg);
+	background:url(../img/photo_04.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -430,6 +430,17 @@ h1, h2, h3, h4, h6{
 }
 
 
+#welcome-text{
+	text-align: center;
+	columns:800px 1;
+	-webkit-columns:800px 1; /* Safari and Chrome */
+	-moz-columns:800px 1; /* Firefox */
+	font-weight: 400;
+	margin-bottom: 66px;
+	color: #544a43;
+	font-size: 14px;
+	line-height: 25px;
+}
 
 
 #about-text{
