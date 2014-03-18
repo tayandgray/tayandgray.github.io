@@ -32,7 +32,7 @@ input{ -webkit-appearance: none; }
 .pad-large{
 	padding-top: 88px;
 	padding-bottom: 88px;
-	background-color: #f3ddcd;
+	background-color: #f7f1e1;
 }
 
 .pad-small{
@@ -56,13 +56,13 @@ h1, h2, h3, h4, h6{
 	letter-spacing: 10px;
 	text-transform: uppercase;
 	margin-right: -10px;
-	color: #fff;
+	color: #544a43;
 }
 
 /** ELEMENTS **/
 
 .hr{
-	background-color: #fff;
+	background-color: #544a43;
 	height: 1px;
 	margin: 0px auto;
 }
@@ -110,45 +110,86 @@ h1, h2, h3, h4, h6{
 	margin-top: 22px;
 }
 
-#quote-divider{
-	background: url(../img/photo_16.jpg);
+#quote-divider-1{
+	background: url(../img/photo_02.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
 }
 
-#quote-divider:before{
+
+#quote-divider-2{
+	background: url(../img/photo_03.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+#quote-divider-1:before{
 	content:'';
 	width: 100%;
 	height: 100%;
-	background-color:rgba(0,0,0,0.3);
 	position: absolute;
 }
 
-#quote-divider .large-8{
-	padding-top: 180px;
-	padding-bottom: 180px;
+#quote-divider-2:before{
+	content:'';
+	width: 100%;
+	height: 100%;
+	position: absolute;
 }
 
-#quote-divider .thick-hr{
+#quote-divider-1 .large-8{
+	padding-top: 280px;
+	padding-bottom: 280px;
+}
+
+#quote-divider-1 .thick-hr{
 	margin: 0px;
 	margin-top: 22px;
 	margin-bottom: 32px;
 	background-color: #fff;
 }
 
-#quote-divider .btn-wrapper{
+#quote-divider-1 .btn-wrapper{
 	margin-right: 11px;
 }
 
-#quote-divider .btn{
+#quote-divider-1 .btn{
 	border-color: #fff;
 	color: #fff;
 	letter-spacing: 3px;
 	font-size: 12px;
 }
 
-#quote-divider .btn i{
+#quote-divider-1 .btn i{
+	margin-right: 5px;
+}
+
+#quote-divider-2 .large-8{
+	padding-top: 180px;
+	padding-bottom: 180px;
+}
+
+#quote-divider-2 .thick-hr{
+	margin: 0px;
+	margin-top: 22px;
+	margin-bottom: 32px;
+	background-color: #fff;
+}
+
+#quote-divider-2 .btn-wrapper{
+	margin-right: 11px;
+}
+
+#quote-divider-2 .btn{
+	border-color: #fff;
+	color: #fff;
+	letter-spacing: 3px;
+	font-size: 12px;
+}
+
+#quote-divider-2 .btn i{
 	margin-right: 5px;
 }
 
@@ -271,7 +312,7 @@ h1, h2, h3, h4, h6{
 
 
 #home-slider {
-	background: url(../img/photo_11.jpg) no-repeat center center fixed;
+	background: url(../img/photo_01.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -370,9 +411,9 @@ h1, h2, h3, h4, h6{
 	columns:400px 3;
 	-webkit-columns:400px 3; /* Safari and Chrome */
 	-moz-columns:400px 3; /* Firefox */
-	font-weight: 300;
+	font-weight: 400;
 	margin-bottom: 66px;
-	color: #ca727a;
+	color: #544a43;
 	font-size: 14px;
 	line-height: 25px;
 }
