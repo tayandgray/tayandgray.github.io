@@ -125,6 +125,20 @@ h1, h2, h3, h4, h6{
 	position: relative;
 }
 
+#quote-divider-3{
+	background: url(../img/photo_06.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+#quote-divider-3:before{
+	content:'';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
 #quote-divider-1:before{
 	content:'';
 	width: 100%;
@@ -167,8 +181,8 @@ h1, h2, h3, h4, h6{
 }
 
 #quote-divider-2 .large-8{
-	padding-top: 180px;
-	padding-bottom: 180px;
+	padding-top: 280px;
+	padding-bottom: 280px;
 }
 
 #quote-divider-2 .thick-hr{
@@ -192,6 +206,35 @@ h1, h2, h3, h4, h6{
 #quote-divider-2 .btn i{
 	margin-right: 5px;
 }
+
+
+#quote-divider-3 .large-8{
+	padding-top: 280px;
+	padding-bottom: 280px;
+}
+
+#quote-divider-3 .thick-hr{
+	margin: 0px;
+	margin-top: 22px;
+	margin-bottom: 32px;
+	background-color: #fff;
+}
+
+#quote-divider-3 .btn-wrapper{
+	margin-right: 11px;
+}
+
+#quote-divider-3 .btn{
+	border-color: #fff;
+	color: #fff;
+	letter-spacing: 3px;
+	font-size: 12px;
+}
+
+#quote-divider-3 .btn i{
+	margin-right: 5px;
+}
+
 
 #registry{
 	background:url(../img/photo_04.jpg);
@@ -297,8 +340,9 @@ h1, h2, h3, h4, h6{
 	color: #222;
 }
 
-#logo{
-	padding-top: 32px;
+.logo{
+	padding-top: 15px;
+	padding-left: 20px;
 }
 
 /***************** HOME ***************/
@@ -418,6 +462,17 @@ h1, h2, h3, h4, h6{
 	line-height: 25px;
 }
 
+#accom-text{
+	columns:700px 1;
+	-webkit-columns:700px 1; /* Safari and Chrome */
+	-moz-columns:700px 1; /* Firefox */
+	font-weight: 400;
+	margin-bottom: 66px;
+	color: #544a43;
+	font-size: 14px;
+	line-height: 25px;
+}
+
 #flight-text-2{
 	columns:200px 1;
 	-webkit-columns:200px 1; /* Safari and Chrome */
@@ -438,8 +493,8 @@ h1, h2, h3, h4, h6{
 	font-weight: 400;
 	margin-bottom: 66px;
 	color: #544a43;
-	font-size: 14px;
-	line-height: 25px;
+	font-size: 17px;
+	line-height: 30px;
 }
 
 
@@ -540,7 +595,7 @@ h1, h2, h3, h4, h6{
 
 .service{
 	padding: 15px;
-	border: 2px solid #fff;
+	border: 2px solid #544a43;
 	max-height: 132px;
 	overflow: hidden;
 	cursor: pointer;
@@ -552,8 +607,8 @@ h1, h2, h3, h4, h6{
 }
 
 .open-service{
-	max-height: 380px !important;
-border: 2px solid #fff;
+	max-height: 580px !important;
+border: 2px solid #544a43;
 }
 
 .open-service .hr{
@@ -585,6 +640,7 @@ border: 2px solid #fff;
 }
 
 .service p{
+	font-weight: 400;
 	opacity: 0;
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
@@ -708,14 +764,21 @@ border: 2px solid #fff;
 }
 
 #contact-holder{
-	padding-top: 88px;
-	padding-bottom: 88px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 	overflow: hidden;
-	background: url(../img/photo_2.jpg) no-repeat center center fixed;
+	background: url(../img/photo_07.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+#contact-holder:before{
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0,0,0,0.5);
+	position: absolute;
 }
 
 .contact-fade{
@@ -900,6 +963,7 @@ a.email {
 }
 
 .logo-text{
+	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	letter-spacing: 3px;
 	margin-right: -3px;
@@ -907,5 +971,5 @@ a.email {
 }
 
 #copy-text{
-	font-size: 12px;
+	font-size: 15px;
 }

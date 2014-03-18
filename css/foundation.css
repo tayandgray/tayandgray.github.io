@@ -286,9 +286,9 @@ select {
     position: relative;
     width: 66.66667%; }
 
-    .large-7-1 {
+  .large-7-1 {
     position: relative;
-    width: 90%; }
+    width: 100%; }
 
   .large-9 {
     position: relative;
@@ -789,11 +789,11 @@ p {
 
 p a{
   font-family: 'Open Sans', sans-serif;
-  color: #CA727A;
+  color: #f3847f;
   text-decoration: underline;
   line-height: inherit; }
   a:hover, a:focus {
-    color: #a4333d; }
+    color: #cc524c; }
   a img {
     border: none; }
 }
