@@ -407,6 +407,31 @@ h1, h2, h3, h4, h6{
 
 /***************** ABOUT ***************/
 
+#flight-text{
+	columns:200px 1;
+	-webkit-columns:200px 1; /* Safari and Chrome */
+	-moz-columns:200px 1; /* Firefox */
+	font-weight: 400;
+	margin-bottom: 66px;
+	color: #544a43;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+#flight-text-2{
+	columns:200px 1;
+	-webkit-columns:200px 1; /* Safari and Chrome */
+	-moz-columns:200px 1; /* Firefox */
+	font-weight: 400;
+	margin-bottom: 66px;
+	color: #544a43;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+
+
+
 #about-text{
 	columns:400px 3;
 	-webkit-columns:400px 3; /* Safari and Chrome */
