@@ -12,6 +12,9 @@
 	top: 31px;
 	cursor: pointer;
 	}
+
+
+
 	.navigation li a{ float: left; }
 
 	.tile-wrapper{ width: 100%;
@@ -100,6 +103,9 @@
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
+
+
+
 
 	#clients{  background-attachment: scroll; }
 	#quote-divider{ background-attachment: scroll; }
