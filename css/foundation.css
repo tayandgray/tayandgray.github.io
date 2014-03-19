@@ -765,8 +765,8 @@ td {
 /* Default Link Styles */
 a {
   font-family: 'Montserrat', sans-serif;
-  color: #000000;
-  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
   line-height: inherit; }
   a:hover, a:focus {
     color: #000000; }
