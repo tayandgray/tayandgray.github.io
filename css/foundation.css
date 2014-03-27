@@ -763,10 +763,18 @@ td {
   direction: ltr; }
 
 /* Default Link Styles */
-a {
+a.footer{
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   text-transform: uppercase;
+  line-height: inherit; }
+  a:hover, a:focus {
+    color: #000000; }
+  a img {
+    border: none; }
+
+a {
+  font-family: inherit;, sans-serif;
   line-height: inherit; }
   a:hover, a:focus {
     color: #000000; }
