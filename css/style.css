@@ -330,6 +330,7 @@ h1, h2, h3, h4, h6{
 	font-size: 0.7em;
 	text-transform: uppercase;
 	letter-spacing: 4px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .navigation li:last-child{
@@ -338,6 +339,8 @@ h1, h2, h3, h4, h6{
 
 .navigation li a{
 	color: #222;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration:	none;
 }
 
 .logo{

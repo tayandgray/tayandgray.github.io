@@ -110,12 +110,13 @@ select {
     float: left; }
   .row .row {
     width: auto;
-    margin-left: -0.9375em;
-    margin-right: -0.9375em;
+   /* margin-left: -0.9375em;
+    margin-right: -0.9375em; */
     margin-top: 0;
     margin-bottom: 0;
     max-width: none;
     *zoom: 1; }
+
     .row .row:before, .row .row:after {
       content: " ";
       display: table; }
@@ -767,7 +768,9 @@ a.footer{
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   text-transform: uppercase;
-  line-height: inherit; }
+  line-height: inherit;
+  font-size: 12px;
+}
   a:hover, a:focus {
     color: #000000; }
   a img {
